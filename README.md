@@ -23,20 +23,43 @@
 - git remote add origin "роҳи репо"
 - git push -u origin main
 ---
-
+```
+git init
+```
 # git init - барои сохтани репо -и холи
+```
+git add example
+```
 # git add  - барои ворид кардани ягон файл ё ин ки агар мо . - "нуқтаро" монем ҳама файлҳоро ворид карда метавонем.
+```
+git commit -m "name"
+```
 # git commit -m "name" - Барои сохтани комит
+```
+git branch -M main
+```
 # git branch -M main -  Барои сохтани шоха.
+```
+git remote add origin "https://"
+```
 # git remote add origin "роҳи репо" - Барои нишон додани роҳи Repository.
+```
+git push -u origin main
+```
 # git push -u origin main - барои фиристодани тағйиротҳо аз git ба github яъне бв репои мо.
 
 # Branch чист?
 ## Branch - барои сохтани шоха истофода бурда мешавад. Шоха local & origin мешавад.
 # Чӣ тавр Branch - ро месозан?
 ## branch - ро бо ду роҳ сохта метавонем:
-- git baranch "impl-branch-name"
-- git checkout -b "impl-branch-name"
+```
+ git baranch "impl-branch-name" 
+```
+---
+```
+ git checkout -b "impl-branch-name"
+ ```
+ ---
 ---
 ![branch](./git-1.jpg)
 # git baranch "impl-branch-name" - Фармони зерин ба мо имконият медиҳад, ки мо якто шоха созем.
